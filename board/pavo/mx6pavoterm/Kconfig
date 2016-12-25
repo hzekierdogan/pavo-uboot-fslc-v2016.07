@@ -1,0 +1,13 @@
+if TARGET_MX6PAVOTERM
+ 
+config SYS_BOARD
+    default "mx6pavoterm"
+ 
+config SYS_VENDOR
+    default "pavo"
+ 
+config SYS_CONFIG_NAME
+    default "mx6pavoterm"
+ 
+endif
+

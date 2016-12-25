@@ -102,6 +102,18 @@ config TARGET_MX6SABRESD
 	select DM
 	select DM_THERMAL
 
+config TARGET_MX6OPENREX
+	bool "mx6openrex"
+	select SUPPORT_SPL
+	select DM
+	select DM_THERMAL
+
+config TARGET_MX6PAVOTERM
+	bool "mx6pavoterm"
+	select SUPPORT_SPL
+	select DM
+	select DM_THERMAL
+
 config TARGET_MX6SLEVK
 	bool "mx6slevk"
 	select SUPPORT_SPL
@@ -215,6 +227,8 @@ source "board/compulab/cm_fx6/Kconfig"
 source "board/congatec/cgtqmx6eval/Kconfig"
 source "board/el/el6x/Kconfig"
 source "board/embest/mx6boards/Kconfig"
+source "board/fedevel/mx6openrex/Kconfig"
+source "board/pavo/mx6pavoterm/Kconfig"
 source "board/freescale/mx6qarm2/Kconfig"
 source "board/freescale/mx6qsabreauto/Kconfig"
 source "board/freescale/mx6sabresd/Kconfig"

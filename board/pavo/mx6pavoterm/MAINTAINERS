@@ -1,0 +1,9 @@
+MX6PAVOTERM BOARD
+M:  Zeki Erdogan<hzekierdogan@hotmail.com>
+S:  Maintained
+F:  board/pavo/mx6pavoterm/
+F:  include/configs/mx6pavoterm.h
+F:  configs/mx6dlpavoterm_defconfig
+F:  configs/mx6qpavoterm_defconfig
+F:  configs/mx6pavoterm_spl_defconfig
+
